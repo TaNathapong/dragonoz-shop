@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  margin: 0;
+  padding: 3rem 0 3rem 0;
+}
+
+.social-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}

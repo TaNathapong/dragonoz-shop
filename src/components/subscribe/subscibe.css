@@ -1,0 +1,25 @@
+.subscribe {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 0;
+  padding: 3rem 0 3rem 0;
+}
+
+.subscribe-input {
+  height: 2.5rem;
+  font-size: 0.8rem;
+  padding: 0.6rem;
+  background-color: lightgray;
+  border-width: 0rem;
+}
+
+.subscribe-button {
+  height: 2.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.6rem;
+  color: white;
+  background-color: black;
+  border-width: 0rem;
+}

@@ -1,0 +1,21 @@
+.collection {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100vw;
+  z-index: 99;
+}
+
+.collection-button {
+  padding: 1rem;
+}
+
+a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+}
