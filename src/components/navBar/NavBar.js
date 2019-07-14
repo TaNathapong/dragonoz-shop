@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FaBars, FaSearch, FaShoppingCart } from 'react-icons/fa';
 import Logo from '../../assets/logo/logo.png';
-import './navbar.css';
+import './mainNavbar.css';
 
 export default class NavBar extends Component {
   constructor(props) {

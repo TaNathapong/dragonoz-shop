@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import Sidebar from 'react-sidebar';
 import Footer from './components/footer/Footer';
-import NavBar from './components/navBar/NavBar';
+import NavBar from './components/navbar/Navbar';
 import CollectionBar from './components/collectionBar/CollectionBar';
+import SidebarMenu from './components/sidebarMenu/SidebarMenu';
+import SidebarCart from './components/sidebarCart/SidebarCart';
 
 import './App.css';
 
@@ -44,18 +46,18 @@ export default class WrapperComponent extends Component {
   render() {
     let { sidebarOpen, cartOpen } = this.state;
     let { children, location } = this.props;
-    let sidebar = { background: 'white', height: '100%', zIndex: 999 };
+    let sidebar = { background: 'white', height: '100%' ,width:"15rem", zIndex: 999 };
     let path = location.pathname;
     return (
       <div>
         <Sidebar
-          sidebar={<b>Sidebar content</b>}
+          sidebar={<SidebarMenu />}
           open={sidebarOpen}
           onSetOpen={this.onSetSidebarOpen}
           styles={{ sidebar: sidebar }}
         />
         <Sidebar
-          sidebar={<b>Cart content</b>}
+          sidebar={<SidebarCart />}
           pullRight={true}
           open={cartOpen}
           onSetOpen={this.onSetCartOpen}

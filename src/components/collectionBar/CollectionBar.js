@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
 import './collectionBar.css';
 
+import { collectionType } from '../../const/CollectionType';
+
 export default class CollectionBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      collectionType: []
+      collectionType: collectionType
     };
-  }
-
-  componentDidMount() {
-    this.setState({
-      collectionType: ['top', 'pants']
-    });
   }
 
   render() {

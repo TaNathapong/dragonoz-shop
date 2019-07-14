@@ -7,6 +7,16 @@
     <meta name="theme-color" content="#000000" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Shop</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/6.2.4/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/6.2.4/firebase-auth.js"></script>
+    <script defer src="/__/firebase/6.2.4/firebase-database.js"></script>
+    <script defer src="/__/firebase/6.2.4/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/6.2.4/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
   </head>
   <body>
     <div id="root"></div>
@@ -19,7 +29,6 @@
           version: 'v3.3'
         });
       };
-
       (function(d, s, id) {
         var js,
           fjs = d.getElementsByTagName(s)[0];

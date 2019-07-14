@@ -1,0 +1,41 @@
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+.menu {
+  height: 100vh;
+}
+
+.menu-logo {
+  width: 80%;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.menu-top {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list {
+}
+
+.menu-footer {
+}
+
+.menu-footer > ul > li {
+  font-size: 1rem;
+}
+
+.menu-social {
+  display: flex;
+  justify-content: flex-end;
+}
